@@ -1,0 +1,9 @@
+{
+    "name": "test",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./backend/bin/index.js",
+        "heroku-prebuild": "cd ./backend && npm install && npm run build"   
+    }
+}
